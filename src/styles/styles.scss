@@ -1,0 +1,44 @@
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.mainToolbar .toolbar-icon {
+  margin: 0 8px;
+  cursor: pointer;
+  font-size: 32px;
+  height: 32px;
+  width: 32px;
+}
+
+.example-button-row {
+  display: table-cell;
+  max-width: 600px;
+}
+
+.mainToolbar .toolbar-spacer {
+  flex: 1 1 auto;
+}
+
+.example-container {
+ display: flex;
+ flex-direction: column;
+ margin: 10px;
+}
+.example-container > * {
+ width: 100%;
+}
+
+
+.example-form mat-form-field{
+ margin: 0px;
+ width: 80%;
+}
+
+.example-section {
+ display: flex;
+ align-content: center;
+ align-items: center;
+ height: 60px;
+}
+.example-margin {
+ margin: 0 10px;
+}
